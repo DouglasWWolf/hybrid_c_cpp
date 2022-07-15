@@ -1,0 +1,528 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Thu Jul 14 17:33:15 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# makefile (from 'makefile', line 73)
+X86_STRIP = strip
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1001/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /devel/ctest
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/101
+# makefile (from 'makefile', line 72)
+X86_CXX = $(CXX)
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# environment
+JOURNAL_STREAM = 8:56042
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'makefile', line 21)
+CPP_STD = c++17
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# automatic
+@F = $(notdir $@)
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+USERNAME = wolf
+# makefile (from 'makefile', line 38)
+CXXFLAGS = -O2 -g -Wall -Wno-write-strings -Wno-sign-compare -Wno-unused-result -Wno-strict-aliasing -fcommon -DLINUX 
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1001/bus
+# environment
+MANAGERPID = 1671
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (from 'makefile', line 96)
+ARM_OBJS = $(addprefix $(ARM_OBJ_DIR)/,$(OBJ_FILES))
+# environment
+VSCODE_CWD = /home/wolf
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/101/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'makefile', line 89)
+OBJ_FILES = ${C_OBJ} ${CPP_OBJ}
+# environment
+PATH = /home/wolf/.local/lib:/home/wolf/.local/lib:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/dma_tools:/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-linux-gnueabihf/bin
+# environment
+GPG_AGENT_INFO = /run/user/1001/gnupg/S.gpg-agent:0:1
+# makefile (from 'makefile', line 87)
+C_OBJ = $(C_SRC_FILES:.c=.o)
+# environment
+SESSION_MANAGER = local/simtool5-2:@/tmp/.ICE-unix/1919,unix/simtool5-2:/tmp/.ICE-unix/1919
+# environment
+XDG_RUNTIME_DIR = /run/user/1001
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/wolf/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/101
+# environment
+SNAP_VERSION = b06ae3b2
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+DISABLE_WAYLAND = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 4ed654de285844f9847e52757ecc3de1
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/101/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1001/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 22293
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :1
+# makefile (from 'makefile', line 26)
+ARM_OBJ_DIR = obj_arm
+# makefile (from 'makefile', line 20)
+C_STD = c99
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /devel/ctest
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1884
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+ 
+# makefile (from 'makefile', line 95)
+X86_OBJS = $(addprefix $(X86_OBJ_DIR)/,$(OBJ_FILES))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/wolf
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/wolf/.config/Code/CachedData/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+# environment
+LOGNAME = wolf
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+SNAP_REAL_HOME = /home/wolf
+# environment
+SNAP_CONTEXT = lqsH5sXz2LyqV4vxvvfLkxubAnSRpVUfTzPHcLiOeY8F8PJRbyO_
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from 'makefile', line 88)
+CPP_OBJ = $(CPP_SRC_FILES:.cpp=.o)
+# environment
+SNAP_USER_COMMON = /home/wolf/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/wolf/snap/code/101
+# environment
+SHLVL = 1
+# makefile (from 'makefile', line 68)
+ARM_CC = arm-none-linux-gnueabihf-gcc
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = wolf
+# environment
+SNAP_REVISION = 101
+# makefile (from 'makefile', line 58)
+.DEFAULT_GOAL := x86
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# makefile (from 'makefile', line 67)
+ALL = x86 arm
+# makefile (from 'makefile', line 15)
+X86_TYPE = 64
+# makefile (from 'makefile', line 80)
+C_SRC_FILES := cfile.c
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'makefile', line 27)
+X86_OBJ_DIR = obj_x86
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1001/vscode-c497b17e-1.69.1-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# makefile (from 'makefile', line 70)
+ARM_STRIP = arm-none-linux-gnueabihf-strip
+# environment
+QT_ACCESSIBILITY = 1
+# makefile (from 'makefile', line 81)
+CPP_SRC_FILES := main.cpp
+# makefile (from 'makefile', line 10)
+PLATFORM := Linux
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = lqsH5sXz2LyqV4vxvvfLkxubAnSRpVUfTzPHcLiOeY8F8PJRbyO_
+# automatic
+<F = $(notdir $<)
+# makefile (from 'makefile', line 71)
+X86_CC = $(CC)
+# makefile (from 'makefile', line 69)
+ARM_CXX = arm-none-linux-gnueabihf-g++
+# environment
+SNAP_NAME = code
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# makefile (from 'makefile', line 4)
+EXE = ctest
+# environment
+ 
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+LANG = C
+# makefile (from 'makefile', line 50)
+ARMFLAGS = -march=armv7-a -mfpu=neon -mfloat-abi=hard -Wno-psabi
+# environment
+VSCODE_PID = 22347
+# variable set hash-table stats:
+# Load=139/1024=14%, Rehash=0, Collisions=28/201=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66306, inode 12582944): 7 files, no impossibilities.
+
+# 7 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+obj_x86/%.o: %.cpp
+#  recipe to execute (from 'makefile', line 103):
+	$(X86_CXX) -m$(X86_TYPE) $(CPPFLAGS) -std=$(CPP_STD) $(CXXFLAGS) -c $< -o $@
+
+obj_x86/%.o: %.c
+#  recipe to execute (from 'makefile', line 106):
+	$(X86_CC) -m$(X86_TYPE) $(CPPFLAGS) -std=$(C_STD) $(CXXFLAGS) -c $< -o $@
+
+obj_arm/%.o: %.cpp
+#  recipe to execute (from 'makefile', line 112):
+	$(ARM_CXX) $(CPPFLAGS) -std=$(CPP_STD) $(CXXFLAGS) $(ARMFLAGS) -c $< -o $@
+
+obj_arm/%.o: %.c
+#  recipe to execute (from 'makefile', line 115):
+	$(ARM_CC) $(CPPFLAGS) -std=$(C_STD) $(CXXFLAGS) $(ARMFLAGS) -c $< -o $@
+
+%.o:
+
+%.c:
+
+%.cpp:
+
+# 7 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+obj_arm/cfile.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+mkdirs: obj_x86 obj_arm
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+#  recipe to execute (from 'makefile', line 160):
+	@chmod 777 $(X86_OBJ_DIR)
+	@chmod 777 $(ARM_OBJ_DIR)
+
+obj_arm:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 153):
+	@mkdir $(ARM_OBJ_DIR)
+
+all: x86 arm
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+
+# Not a target:
+.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.SUFFIXES: .o .c .cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+debug:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 185):
+	@echo C_OBJ = ${C_OBJ}
+ 
+	@echo CPP_OBJ = ${CPP_OBJ}
+	@echo OBJ_FILES = ${OBJ_FILES}
+
+ctest.arm: obj_arm/cfile.o obj_arm/main.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 128):
+	$(ARM_CXX)  -pthread $(ARMFLAGS) -o $@ $(ARM_OBJS) 
+	$(ARM_STRIP) $(EXE).arm
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-14 17:32:15.863558237
+#  File has been updated.
+#  Successfully updated.
+
+tarball: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 174):
+	rm -rf $(EXE).tgz
+	tar --create --exclude-vcs -v -z -f $(EXE).tgz *
+
+# Not a target:
+.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+arm: mkdirs ctest.arm
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj_x86/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+depend: x86
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 182):
+	makedepend -p$(X86_OBJ_DIR)/ -Y 2>/dev/null
+
+x86: mkdirs ctest.x86
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 167):
+	rm -rf Makefile.bak makefile.bak $(EXE).tgz $(EXE).x86 $(EXE).arm
+	rm -rf $(X86_OBJ_DIR) $(ARM_OBJ_DIR)
+
+# Not a target:
+obj_x86/cfile.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj_x86:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+ 
+# @ := obj_x86
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+#  recipe to execute (from 'makefile', line 151):
+	@mkdir $(X86_OBJ_DIR)
+
+ctest.x86: obj_x86/cfile.o obj_x86/main.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 121):
+	$(X86_CXX) -m$(X86_TYPE) -pthread -o $@ $(X86_OBJS)
+	$(X86_STRIP) $(EXE).x86
+
+# Not a target:
+obj_arm/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=22/1024=2%, Rehash=0, Collisions=2/62=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 35 / storage = 291 B / avg = 8 B
+# current buf: size = 8162 B / used = 291 B / count = 35 / avg = 8 B
+
+# strcache performance: lookups = 73 / hit rate = 52%
+# hash-table stats:
+# Load=35/8192=0%, Rehash=0, Collisions=10/73=14%
+# Finished Make data base on Thu Jul 14 17:33:15 2022
+
+ 
