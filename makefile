@@ -71,10 +71,10 @@ endif
 ifeq ($(PLATFORM), Linux)
     ALL       = x86 arm
     ARM_CC    = arm-none-linux-gnueabihf-gcc
-	ARM_CXX   = arm-none-linux-gnueabihf-g++
+    ARM_CXX   = arm-none-linux-gnueabihf-g++
     ARM_STRIP = arm-none-linux-gnueabihf-strip
     X86_CC    = $(CC)
-	X86_CXX   = $(CXX)
+    X86_CXX   = $(CXX)
     X86_STRIP = strip
 endif
 
